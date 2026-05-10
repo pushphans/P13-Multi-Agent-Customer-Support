@@ -53,4 +53,4 @@ billing_worker_graph.add_conditional_edges(
 billing_worker_graph.add_edge("tool_node", "manager_node")
 
 
-billing_workflow = billing_worker_graph.compile()
+billing_worker = billing_worker_graph.compile()
